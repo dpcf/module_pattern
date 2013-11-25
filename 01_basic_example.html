@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!--
+See inspiration : http://www.adequatelygood.com/JavaScript-Module-Pattern-In-Depth.html
+-->
+<html>
+    <head>
+        <title>Module labo</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div>Module pattern</div>
+        
+        <script src="js/Dp/Util.js"></script>
+        <script src="js/Dp/Util/Format.js"></script>
+        <script src="js/Dp/Util/Math.js"></script>
+
+        <script type="text/javascript">
+            window.onload = function () {
+                alert(Dp.Util.Math.Multiply(3, 5));
+                alert(Dp.Util.Format.Price(347));
+            }
+
+        </script>
+    </body>
+</html>
